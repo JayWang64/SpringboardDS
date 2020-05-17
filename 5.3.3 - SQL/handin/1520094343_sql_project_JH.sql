@@ -35,24 +35,24 @@ exploring the data, and getting acquainted with the 3 tables. */
 /* Q1: Some of the facilities charge a fee to members, but some do not.
 Please list the names of the facilities that do. */
 
-SELECT		[name]
-			,[membercost]
-FROM		[Facilities]
+SELECT		name
+			,membercost
+FROM		Facilities
 WHERE		membercost = 0
 
 /* Q2: How many facilities do not charge a fee to members? */
 
-SELECT		COUNT([membercost]) as [Qty Facilities Do Not Charge Member Fee]
-FROM		[Facilities]
+SELECT		COUNT(membercost) as "Qty Facilities Do Not Charge Member Fee"
+FROM		Facilities
 WHERE		membercost = 0
-GROUP BY	[membercost]
+GROUP BY	membercost
 
 /* Q3: How can you produce a list of facilities that charge a fee to members, 
 where the fee is less than 20% of the facility's monthly maintenance cost? 
 Return the facid, facility name, member cost, and monthly maintenance of the facilities in question. */
 
-SELECT		facid, [name], membercost, monthlymaintenance
-FROM		[Facilities]
+SELECT		facid, name, membercost, monthlymaintenance
+FROM		Facilities
 WHERE		(membercost <> 0)  AND	(membercost / monthlymaintenance) < 0.2
 
 
@@ -72,19 +72,19 @@ SELECT	Facilities.*
 		,Case
 			when monthlymaintenance > 100 then 'expensive'
 			else 'cheap'
-		End as [CostDescription]
+		End as "CostDescription"
 FROM	Facilities
 
 
 /* Q6: You'd like to get the first and last name of the last member(s)
 who signed up. Do not use the LIMIT clause for your solution. */
 
-SELECT		[firstname],[surname],[joindate]
-FROM		[Members]
-WHERE		[joindate] = 
+SELECT		firstname,surname,joindate
+FROM		Members
+WHERE		joindate = 
 	(
-		SELECT		MAX([joindate]) as [LatestJoinDate]
-		FROM		[Members]
+		SELECT		MAX(joindate) as "LatestJoinDate"
+		FROM		Members
 	)
 
 
@@ -99,26 +99,26 @@ Filter, Group then Join
 
 WITH
 TENNIS_COURT_BOOKINGS as (
-	SELECT	b.[facid]
-			,b.[memid]
-			,1 AS [BookingCount]			
-	FROM	[Bookings] b
+	SELECT	b.facid
+			,b.memid
+			,1 AS BookingCount			
+	FROM	Bookings b
 	WHERE	b.facid in (0,1)
 ),
 TENNIS_COURT_BOOKINGS_SUM as (
 	Select	tb.facid
 			, tb.memid
-			, sum(tb.BookingCount) as [Bookings]
+			, sum(tb.BookingCount) as "Bookings"
 	FROM	TENNIS_COURT_BOOKINGS tb
 	GROUP BY	tb.facid, tb.memid
 )
 
-SELECT		f.name as [TennisCourtName]
-			, m.firstname + ' ' + m.surname as [FullName]
+SELECT		f.name as "TennisCourtName"
+			, m.firstname + ' ' + m.surname as "FullName"
 			, tbs.Bookings
 FROM		TENNIS_COURT_BOOKINGS_SUM tbs
-LEFT JOIN	[Facilities] f	on tbs.facid = f.facid
-LEFT JOIN	[Members] m		on m.memid = tbs.memid
+LEFT JOIN	Facilities f	on tbs.facid = f.facid
+LEFT JOIN	Members m		on m.memid = tbs.memid
 ORDER BY	tbs.Bookings DESC
 
 
@@ -133,17 +133,17 @@ the name of the member formatted as a single column, and the cost.
 Order by descending cost, and do not use any subqueries. */
 
 SELECT	
-		b.bookid as [BookingID]
-		, f.name as [FacilityName]
-		, m.firstname + ' ' + m.surname as [FullName]		
+		b.bookid as "BookingID"
+		, f.name as "FacilityName"
+		, m.firstname + ' ' + m.surname as "FullName"
 		, Case
 			when b.memid = 0 then format(guestcost * slots, 'C')
 			else				format(membercost * slots, 'C')
-		End [TotalCost]
+		End "TotalCost"
 		, Case
 			when b.memid = 0 then guestcost * slots
 			else				membercost * slots
-		End [TotalCostSort]
+		End "TotalCostSort"
 
 FROM	Bookings b
 
@@ -153,24 +153,24 @@ left join Facilities f on b.facid = f.facid
 where b.starttime like '2012-09-14%'
 and (((guestcost * slots > 30) and (b.memid = 0)) OR ((membercost * slots > 30) and (b.memid <> 0)))
 
-ORDER BY [TotalCostSort] DESC
+ORDER BY TotalCostSort DESC
 
 
 /* Q9: This time, produce the same result as in Q8, but using a subquery. */
 Select A.FacilityName, A.FullName, A.TotalCost
 From 
 (
-	Select 	b.bookid as [BookingID]
-			, f.name as [FacilityName]
-			, m.firstname + ' ' + m.surname as [FullName]		
+	Select 	b.bookid as "BookingID"
+			, f.name as "FacilityName"
+			, m.firstname + ' ' + m.surname as "FullName"
 			, Case
 				when b.memid = 0 then format(guestcost * slots, 'C')
 				else				format(membercost * slots, 'C')
-			End [TotalCost]
+			End "TotalCost"
 			, Case
 				when b.memid = 0 then guestcost * slots
 				else				membercost * slots
-			End [TotalCostSort]
+			End "TotalCostSort"
 	From
 	(
 		Select Bookings.* 
@@ -191,7 +191,7 @@ From
 	)
 ) 
 A
-ORDER BY [TotalCostSort] DESC
+ORDER BY TotalCostSort DESC
 
 
 
@@ -202,16 +202,16 @@ that there's a different cost for guests and members! */
 WITH
 BOOKINGS_TEMP AS
 (
-	SELECT	[facid]
-			,[memid]
-			,sum([slots]) as slots_sum
+	SELECT	facid
+			,memid
+			,sum(slots) as slots_sum
 			, Case
 				when memid = 0 then 'Guest'
 				else 'Member'
-			End as [MemberType]
-			,count(bookid) as [Qty]
+			End as MemberType
+			,count(bookid) as "Qty"
   
-	  FROM		[Bookings]
+	  FROM		Bookings
 	  --WHERE		NOT(facid in (7,8) and memid <> 0) --filtering out pool/snooker tables to members as they generate 0 revenue prior to the join
 	  Group by	facid, memid
 )
@@ -229,18 +229,18 @@ Revenue2 = slots qty * cost
 					when bt.memid = 0 then	bt.Qty * f.guestcost
 					when bt.memid <> 0 then	bt.Qty * f.membercost
 					else 0
-				End as [Revenue1]
+				End as "Revenue1"
 				,Case
 					when bt.memid = 0 then	bt.slots_sum * f.guestcost
 					when bt.memid <> 0 then	bt.slots_sum * f.membercost
 					else 0
-				End as [Revenue2]
-	FROM		BOOKINGS_TEMP bt
-	LEFT JOIN	[Facilities] f	on bt.facid = f.facid
+				End as "Revenue2"
+				FROM		BOOKINGS_TEMP bt
+	LEFT JOIN	Facilities f	on bt.facid = f.facid
 )
-SELECT		br.name as [Facility]
+SELECT		br.name as "Facility"
 			--,format(sum(Revenue1), 'C') as [Revenue1]
-			,format(sum(Revenue2), 'C') as [Revenue2]
+			,format(sum(Revenue2), 'C') as "Revenue2"
 FROM		BOOKINGS_REVENUE_TEMP br
 GROUP BY	br.name
 HAVING		(sum(Revenue2) < 1000)
