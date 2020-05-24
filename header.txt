@@ -1,0 +1,9 @@
+# ---------------------------------------------------------------
+	Springboard Data Science Career Track - March 2 Cohort
+
+    Date:  2020-05-24
+
+    By: Justin Huang	
+
+    Advisor: Blake Arensdorf
+# ---------------------------------------------------------------

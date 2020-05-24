@@ -1,0 +1,50 @@
+Can you count something interesting?
+
+
+Can you find trends (e.g. high, low, increasing, decreasing, anomalies)?
+
+- how to get around the pct of pct problem? (other than getting more granular data)
+- nba api?
+
+1) Can you make a bar plot or a histogram?
+
+home/away
+
+>> bar plot
+regular vs. post season
+- total wins
+- home wins only
+
+
+>> box plots
+
+Regular Season
+	home: 
+		fg, ft, 3p pcts
+	away:
+		fg, ft, 3p pcts
+
+Post Season		
+	home: 
+		fg, ft, 3p pcts
+	away:
+		fg, ft, 3p pcts
+
+
+2) Can you compare two related quantities? Can you make a scatterplot?
+
+Home Team Wins vs. Total Wins
+
+4) Can you make a time-series plot?
+over each season
+
+Regular Season
+	line graph:
+		(home + away):
+			pts, asts, reb
+Post Season:
+
+- total pts, ast, reb
+
+
+
