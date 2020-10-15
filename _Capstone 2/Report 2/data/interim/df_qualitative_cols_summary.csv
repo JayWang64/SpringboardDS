@@ -1,0 +1,69 @@
+,column_name,values,qty_unique,qty_nunique,qty_na,pct_na
+0,wpt_name,"['none' 'Zahanati' 'Kwa Mahundi' ... 'Kwa Yahona Kuvala' 'Mshoro'
+ 'Kwa Mzee Lugawa']",37400,37400,0,0.0
+0,subvillage,['Mnyusi B' 'Nyamara' 'Majengo' ... 'Itete B' 'Maore Kati' 'Kikatanyemba'],19288,19287,371,0.6
+0,scheme_name,"['Roman' nan 'Nyumba ya mungu pipe scheme' ... 'BL Nsherehehe'
+ 'Magati  gravity spri' 'Mtawanya']",2697,2696,28166,47.4
+0,installer,['Roman' 'GRUMETI' 'World vision' ... 'Dina' 'brown' 'SELEPTA'],2146,2145,3655,6.2
+0,ward,['Mundindi' 'Natta' 'Ngorika' ... 'Chinugulu' 'Nyamtinga' 'Kinungu'],2092,2092,0,0.0
+0,funder,['Roman' 'Grumeti' 'Lottery Club' ... 'Dina' 'Brown' 'Samlo'],1898,1897,3635,6.1
+0,lga,"['Ludewa' 'Serengeti' 'Simanjiro' 'Nanyumbu' 'Karagwe' 'Mkinga'
+ 'Shinyanga Rural' 'Kahama' 'Tabora Urban' 'Mkuranga' 'Namtumbo' 'Maswa'
+ 'Siha' 'Meatu' 'Sumbawanga Rural' 'Njombe' 'Ukerewe' 'Bariadi' 'Same'
+ 'Kigoma Rural' 'Moshi Rural' 'Lindi Rural' 'Rombo' 'Chamwino' 'Bagamoyo'
+ 'Mafia' 'Arusha Rural' 'Kyela' 'Kondoa' 'Kilolo' 'Kibondo' 'Makete'
+ 'Singida Rural' 'Masasi' 'Rungwe' 'Moshi Urban' 'Geita' 'Mbulu'
+ 'Bukoba Rural' 'Muheza' 'Lushoto' 'Meru' 'Iramba' 'Kilombero' 'Mbarali'
+ 'Kasulu' 'Bukoba Urban' 'Korogwe' 'Bukombe' 'Morogoro Rural' 'Kishapu'
+ 'Musoma Rural' 'Sengerema' 'Iringa Rural' 'Muleba' 'Dodoma Urban'
+ 'Ruangwa' 'Hanang' 'Misenyi' 'Missungwi' 'Songea Rural' 'Tanga' 'Tunduru'
+ 'Hai' 'Mwanga' 'Chato' 'Biharamulo' 'Ileje' 'Mpwapwa' 'Mvomero' 'Bunda'
+ 'Kiteto' 'Longido' 'Urambo' 'Mbozi' 'Sikonge' 'Ilala' 'Tarime' 'Temeke'
+ 'Mbeya Rural' 'Magu' 'Manyoni' 'Igunga' 'Kilosa' 'Babati' 'Chunya'
+ 'Mufindi' 'Mtwara Rural' 'Ngara' 'Karatu' 'Mpanda' 'Kibaha'
+ 'Singida Urban' 'Newala' 'Nzega' 'Nkasi' 'Bahi' 'Mbinga' 'Ulanga'
+ 'Sumbawanga Urban' 'Morogoro Urban' 'Tandahimba' 'Kisarawe'
+ 'Mtwara Urban' 'Kilwa' 'Liwale' 'Kongwa' 'Uyui' 'Rufiji' 'Kwimba'
+ 'Monduli' 'Shinyanga Urban' 'Ngorongoro' 'Handeni' 'Rorya' 'Pangani'
+ 'Lindi Urban' 'Nachingwea' 'Kinondoni' 'Kigoma Urban' 'Ilemela' 'Kilindi'
+ 'Arusha Urban' 'Songea Urban' 'Nyamagana']",125,125,0,0.0
+0,region,"['Iringa' 'Mara' 'Manyara' 'Mtwara' 'Kagera' 'Tanga' 'Shinyanga' 'Tabora'
+ 'Pwani' 'Ruvuma' 'Kilimanjaro' 'Rukwa' 'Mwanza' 'Kigoma' 'Lindi' 'Dodoma'
+ 'Arusha' 'Mbeya' 'Singida' 'Morogoro' 'Dar es Salaam']",21,21,0,0.0
+0,extraction_type,"['gravity' 'submersible' 'swn 80' 'nira/tanira' 'india mark ii' 'other'
+ 'ksb' 'mono' 'windmill' 'afridev' 'other - rope pump' 'india mark iii'
+ 'other - swn 81' 'other - play pump' 'cemo' 'climax' 'walimi'
+ 'other - mkulima/shinyanga']",18,18,0,0.0
+0,scheme_management,"['VWC' 'Other' nan 'Private operator' 'WUG' 'Water Board' 'WUA'
+ 'Water authority' 'Company' 'Parastatal' 'Trust' 'SWC' 'None']",13,12,3877,6.5
+0,extraction_type_group,"['gravity' 'submersible' 'swn 80' 'nira/tanira' 'india mark ii' 'other'
+ 'mono' 'wind-powered' 'afridev' 'rope pump' 'india mark iii'
+ 'other handpump' 'other motorpump']",13,13,0,0.0
+0,management,"['vwc' 'wug' 'other' 'private operator' 'water board' 'wua' 'company'
+ 'water authority' 'parastatal' 'unknown' 'other - school' 'trust']",12,12,0,0.0
+0,source,"['spring' 'rainwater harvesting' 'dam' 'machine dbh' 'other'
+ 'shallow well' 'river' 'hand dtw' 'lake' 'unknown']",10,10,0,0.0
+0,basin,"['Lake Nyasa' 'Lake Victoria' 'Pangani' 'Ruvuma / Southern Coast'
+ 'Internal' 'Lake Tanganyika' 'Wami / Ruvu' 'Rufiji' 'Lake Rukwa']",9,9,0,0.0
+0,water_quality,"['soft' 'salty' 'milky' 'unknown' 'fluoride' 'coloured' 'salty abandoned'
+ 'fluoride abandoned']",8,8,0,0.0
+0,waterpoint_type,"['communal standpipe' 'communal standpipe multiple' 'hand pump' 'other'
+ 'improved spring' 'cattle trough' 'dam']",7,7,0,0.0
+0,extraction_type_class,"['gravity' 'submersible' 'handpump' 'other' 'motorpump' 'wind-powered'
+ 'rope pump']",7,7,0,0.0
+0,payment,"['pay annually' 'never pay' 'pay per bucket' 'unknown'
+ 'pay when scheme fails' 'other' 'pay monthly']",7,7,0,0.0
+0,payment_type,"['annually' 'never pay' 'per bucket' 'unknown' 'on failure' 'other'
+ 'monthly']",7,7,0,0.0
+0,source_type,"['spring' 'rainwater harvesting' 'dam' 'borehole' 'other' 'shallow well'
+ 'river/lake']",7,7,0,0.0
+0,quality_group,['good' 'salty' 'milky' 'unknown' 'fluoride' 'colored'],6,6,0,0.0
+0,waterpoint_type_group,"['communal standpipe' 'hand pump' 'other' 'improved spring'
+ 'cattle trough' 'dam']",6,6,0,0.0
+0,quantity,['enough' 'insufficient' 'dry' 'seasonal' 'unknown'],5,5,0,0.0
+0,quantity_group,['enough' 'insufficient' 'dry' 'seasonal' 'unknown'],5,5,0,0.0
+0,management_group,['user-group' 'other' 'commercial' 'parastatal' 'unknown'],5,5,0,0.0
+0,source_class,['groundwater' 'surface' 'unknown'],3,3,0,0.0
+0,permit,[False True nan],3,2,3056,5.1
+0,public_meeting,[True nan False],3,2,3334,5.6000000000000005
+0,recorded_by,['GeoData Consultants Ltd'],1,1,0,0.0
