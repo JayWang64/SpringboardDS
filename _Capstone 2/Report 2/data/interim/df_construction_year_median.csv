@@ -1,0 +1,376 @@
+water_quality,extraction_type_group,basin,construction_year
+coloured,afridev,Internal,2008
+coloured,afridev,Rufiji,2004
+coloured,gravity,Internal,2002
+coloured,gravity,Lake Nyasa,2004
+coloured,gravity,Lake Rukwa,1998
+coloured,gravity,Lake Tanganyika,1990
+coloured,gravity,Pangani,1981
+coloured,gravity,Rufiji,2011
+coloured,gravity,Ruvuma / Southern Coast,1997
+coloured,gravity,Wami / Ruvu,2008
+coloured,india mark ii,Internal,2009
+coloured,india mark ii,Lake Rukwa,1995
+coloured,india mark ii,Lake Tanganyika,2007
+coloured,india mark ii,Lake Victoria,2009
+coloured,india mark ii,Rufiji,2010
+coloured,india mark ii,Ruvuma / Southern Coast,2009
+coloured,india mark ii,Wami / Ruvu,2009
+coloured,nira/tanira,Internal,2000
+coloured,nira/tanira,Lake Nyasa,2012
+coloured,nira/tanira,Lake Rukwa,2009
+coloured,nira/tanira,Lake Tanganyika,2004
+coloured,nira/tanira,Rufiji,2004
+coloured,nira/tanira,Ruvuma / Southern Coast,2002
+coloured,nira/tanira,Wami / Ruvu,2005
+coloured,other,Internal,2000
+coloured,other,Lake Rukwa,1988
+coloured,other,Lake Victoria,1999
+coloured,other,Pangani,2004
+coloured,other,Rufiji,1983
+coloured,other,Ruvuma / Southern Coast,1984
+coloured,other,Wami / Ruvu,1996
+coloured,other handpump,Ruvuma / Southern Coast,2003
+coloured,rope pump,Rufiji,2010
+coloured,rope pump,Wami / Ruvu,2011
+coloured,submersible,Rufiji,2008
+coloured,submersible,Wami / Ruvu,1988
+coloured,swn 80,Lake Nyasa,2012
+coloured,swn 80,Lake Tanganyika,2009
+coloured,swn 80,Rufiji,1998
+coloured,swn 80,Ruvuma / Southern Coast,2007
+coloured,swn 80,Wami / Ruvu,2008
+fluoride,afridev,Internal,2010
+fluoride,afridev,Pangani,2008
+fluoride,gravity,Internal,2000
+fluoride,gravity,Pangani,2004
+fluoride,india mark ii,Internal,2012
+fluoride,india mark ii,Pangani,2007
+fluoride,india mark ii,Ruvuma / Southern Coast,1988
+fluoride,mono,Internal,2000
+fluoride,mono,Pangani,2002
+fluoride,nira/tanira,Internal,1998
+fluoride,nira/tanira,Lake Victoria,1998
+fluoride,nira/tanira,Pangani,2000
+fluoride,nira/tanira,Rufiji,2007
+fluoride,other,Pangani,2000
+fluoride,other,Rufiji,2006
+fluoride,other,Wami / Ruvu,2011
+fluoride,other handpump,Wami / Ruvu,2009
+fluoride,submersible,Internal,2009
+fluoride,submersible,Pangani,2012
+fluoride,swn 80,Internal,1997
+fluoride,swn 80,Rufiji,1994
+fluoride,swn 80,Wami / Ruvu,2010
+fluoride,wind-powered,Internal,2010
+fluoride abandoned,afridev,Rufiji,2002
+fluoride abandoned,india mark ii,Wami / Ruvu,2000
+fluoride abandoned,nira/tanira,Internal,2009
+fluoride abandoned,nira/tanira,Lake Tanganyika,2004
+fluoride abandoned,nira/tanira,Rufiji,2006
+fluoride abandoned,other,Pangani,2000
+fluoride abandoned,swn 80,Internal,1993
+milky,afridev,Internal,1997
+milky,afridev,Lake Victoria,1998
+milky,afridev,Rufiji,2005
+milky,gravity,Internal,2004
+milky,gravity,Lake Rukwa,1996
+milky,gravity,Lake Tanganyika,1996
+milky,india mark ii,Internal,2009
+milky,india mark ii,Lake Tanganyika,2006
+milky,india mark ii,Ruvuma / Southern Coast,1982
+milky,india mark iii,Wami / Ruvu,2000
+milky,mono,Internal,2000
+milky,nira/tanira,Internal,2004
+milky,nira/tanira,Lake Rukwa,1997
+milky,nira/tanira,Lake Tanganyika,1996
+milky,nira/tanira,Rufiji,2008
+milky,nira/tanira,Ruvuma / Southern Coast,2004
+milky,nira/tanira,Wami / Ruvu,1996
+milky,other,Internal,2004
+milky,other,Lake Rukwa,1999
+milky,other,Lake Tanganyika,1988
+milky,other,Lake Victoria,1999
+milky,other,Pangani,1990
+milky,other,Rufiji,1987
+milky,other,Ruvuma / Southern Coast,1982
+milky,other,Wami / Ruvu,1997
+milky,submersible,Pangani,2008
+milky,submersible,Wami / Ruvu,2010
+milky,swn 80,Internal,2005
+milky,swn 80,Rufiji,2008
+milky,swn 80,Wami / Ruvu,2001
+milky,wind-powered,Internal,2001
+salty,afridev,Internal,1996
+salty,afridev,Lake Rukwa,2009
+salty,afridev,Lake Tanganyika,2007
+salty,afridev,Lake Victoria,2006
+salty,afridev,Pangani,2008
+salty,afridev,Rufiji,2006
+salty,afridev,Ruvuma / Southern Coast,2012
+salty,afridev,Wami / Ruvu,2004
+salty,gravity,Internal,2010
+salty,gravity,Lake Nyasa,2007
+salty,gravity,Lake Victoria,1977
+salty,gravity,Pangani,1976
+salty,gravity,Rufiji,2002
+salty,gravity,Ruvuma / Southern Coast,1987
+salty,gravity,Wami / Ruvu,2006
+salty,india mark ii,Internal,2011
+salty,india mark ii,Lake Nyasa,2009
+salty,india mark ii,Lake Rukwa,1988
+salty,india mark ii,Lake Tanganyika,1997
+salty,india mark ii,Lake Victoria,2009
+salty,india mark ii,Pangani,2008
+salty,india mark ii,Rufiji,2008
+salty,india mark ii,Ruvuma / Southern Coast,2008
+salty,india mark ii,Wami / Ruvu,2009
+salty,india mark iii,Rufiji,1994
+salty,india mark iii,Ruvuma / Southern Coast,2006
+salty,india mark iii,Wami / Ruvu,2005
+salty,mono,Internal,2006
+salty,mono,Lake Nyasa,2012
+salty,mono,Lake Rukwa,1990
+salty,mono,Lake Tanganyika,2008
+salty,mono,Lake Victoria,1979
+salty,mono,Pangani,2011
+salty,mono,Rufiji,2004
+salty,mono,Ruvuma / Southern Coast,1982
+salty,mono,Wami / Ruvu,2000
+salty,nira/tanira,Internal,1998
+salty,nira/tanira,Lake Nyasa,1997
+salty,nira/tanira,Lake Rukwa,1998
+salty,nira/tanira,Lake Tanganyika,1994
+salty,nira/tanira,Lake Victoria,1998
+salty,nira/tanira,Pangani,2005
+salty,nira/tanira,Rufiji,2003
+salty,nira/tanira,Ruvuma / Southern Coast,1991
+salty,nira/tanira,Wami / Ruvu,2001
+salty,other,Internal,1997
+salty,other,Lake Rukwa,1993
+salty,other,Lake Tanganyika,1994
+salty,other,Lake Victoria,1995
+salty,other,Pangani,2002
+salty,other,Rufiji,1997
+salty,other,Ruvuma / Southern Coast,1984
+salty,other,Wami / Ruvu,1996
+salty,other handpump,Internal,2010
+salty,other handpump,Lake Rukwa,1984
+salty,other handpump,Lake Tanganyika,1987
+salty,other handpump,Lake Victoria,2008
+salty,other handpump,Pangani,1971
+salty,other handpump,Ruvuma / Southern Coast,2002
+salty,other handpump,Wami / Ruvu,2008
+salty,other motorpump,Lake Victoria,2009
+salty,rope pump,Lake Victoria,2007
+salty,rope pump,Pangani,2008
+salty,rope pump,Rufiji,2010
+salty,rope pump,Ruvuma / Southern Coast,2012
+salty,rope pump,Wami / Ruvu,2008
+salty,submersible,Internal,2005
+salty,submersible,Lake Rukwa,2008
+salty,submersible,Lake Tanganyika,1988
+salty,submersible,Lake Victoria,1994
+salty,submersible,Pangani,2008
+salty,submersible,Rufiji,2006
+salty,submersible,Ruvuma / Southern Coast,2007
+salty,submersible,Wami / Ruvu,2005
+salty,swn 80,Lake Rukwa,2003
+salty,swn 80,Lake Tanganyika,2007
+salty,swn 80,Lake Victoria,1990
+salty,swn 80,Pangani,2003
+salty,swn 80,Rufiji,2006
+salty,swn 80,Ruvuma / Southern Coast,1998
+salty,swn 80,Wami / Ruvu,1996
+salty,wind-powered,Internal,1986
+salty,wind-powered,Pangani,2009
+salty,wind-powered,Rufiji,1986
+salty abandoned,afridev,Internal,2004
+salty abandoned,afridev,Lake Victoria,1998
+salty abandoned,afridev,Pangani,1984
+salty abandoned,afridev,Rufiji,2006
+salty abandoned,afridev,Ruvuma / Southern Coast,1992
+salty abandoned,afridev,Wami / Ruvu,2008
+salty abandoned,india mark ii,Lake Tanganyika,1993
+salty abandoned,india mark ii,Lake Victoria,2006
+salty abandoned,india mark ii,Pangani,2008
+salty abandoned,india mark ii,Ruvuma / Southern Coast,2008
+salty abandoned,india mark ii,Wami / Ruvu,2000
+salty abandoned,mono,Rufiji,1975
+salty abandoned,mono,Ruvuma / Southern Coast,1978
+salty abandoned,mono,Wami / Ruvu,2000
+salty abandoned,nira/tanira,Internal,1995
+salty abandoned,nira/tanira,Lake Victoria,1998
+salty abandoned,nira/tanira,Pangani,2004
+salty abandoned,nira/tanira,Rufiji,2008
+salty abandoned,nira/tanira,Ruvuma / Southern Coast,1977
+salty abandoned,nira/tanira,Wami / Ruvu,2000
+salty abandoned,other,Internal,1997
+salty abandoned,other,Pangani,1973
+salty abandoned,other,Ruvuma / Southern Coast,1979
+salty abandoned,other,Wami / Ruvu,2000
+salty abandoned,submersible,Pangani,2008
+salty abandoned,submersible,Rufiji,1974
+salty abandoned,submersible,Ruvuma / Southern Coast,1973
+salty abandoned,submersible,Wami / Ruvu,2010
+salty abandoned,swn 80,Lake Victoria,1996
+salty abandoned,swn 80,Wami / Ruvu,2010
+soft,afridev,Internal,2000
+soft,afridev,Lake Nyasa,2006
+soft,afridev,Lake Rukwa,2008
+soft,afridev,Lake Tanganyika,2002
+soft,afridev,Lake Victoria,2000
+soft,afridev,Pangani,2008
+soft,afridev,Rufiji,2006
+soft,afridev,Ruvuma / Southern Coast,2012
+soft,afridev,Wami / Ruvu,2000
+soft,gravity,Internal,2005
+soft,gravity,Lake Nyasa,2000
+soft,gravity,Lake Rukwa,1985
+soft,gravity,Lake Tanganyika,1999
+soft,gravity,Lake Victoria,2002
+soft,gravity,Pangani,1999
+soft,gravity,Rufiji,1996
+soft,gravity,Ruvuma / Southern Coast,1996
+soft,gravity,Wami / Ruvu,1998
+soft,india mark ii,Internal,2009
+soft,india mark ii,Lake Nyasa,1995
+soft,india mark ii,Lake Rukwa,1988
+soft,india mark ii,Lake Tanganyika,2006
+soft,india mark ii,Lake Victoria,2009
+soft,india mark ii,Pangani,2005
+soft,india mark ii,Rufiji,2009
+soft,india mark ii,Ruvuma / Southern Coast,2006
+soft,india mark ii,Wami / Ruvu,2009
+soft,india mark iii,Lake Tanganyika,2007
+soft,india mark iii,Lake Victoria,2010
+soft,india mark iii,Rufiji,2006
+soft,india mark iii,Ruvuma / Southern Coast,2006
+soft,india mark iii,Wami / Ruvu,2001
+soft,mono,Internal,2000
+soft,mono,Lake Nyasa,2008
+soft,mono,Lake Rukwa,2006
+soft,mono,Lake Tanganyika,1981
+soft,mono,Lake Victoria,1973
+soft,mono,Pangani,1994
+soft,mono,Rufiji,2004
+soft,mono,Ruvuma / Southern Coast,2011
+soft,mono,Wami / Ruvu,2008
+soft,nira/tanira,Internal,1997
+soft,nira/tanira,Lake Nyasa,1998
+soft,nira/tanira,Lake Rukwa,1995
+soft,nira/tanira,Lake Tanganyika,2003
+soft,nira/tanira,Lake Victoria,1998
+soft,nira/tanira,Pangani,2005
+soft,nira/tanira,Rufiji,2006
+soft,nira/tanira,Ruvuma / Southern Coast,1995
+soft,nira/tanira,Wami / Ruvu,2003
+soft,other,Internal,2000
+soft,other,Lake Nyasa,1990
+soft,other,Lake Rukwa,1991
+soft,other,Lake Tanganyika,1989
+soft,other,Lake Victoria,1996
+soft,other,Pangani,2000
+soft,other,Rufiji,1998
+soft,other,Ruvuma / Southern Coast,1986
+soft,other,Wami / Ruvu,2000
+soft,other handpump,Internal,1998
+soft,other handpump,Lake Nyasa,1998
+soft,other handpump,Lake Rukwa,1989
+soft,other handpump,Lake Tanganyika,1985
+soft,other handpump,Lake Victoria,2008
+soft,other handpump,Rufiji,2004
+soft,other handpump,Ruvuma / Southern Coast,2007
+soft,other handpump,Wami / Ruvu,1998
+soft,rope pump,Internal,2010
+soft,rope pump,Lake Nyasa,2012
+soft,rope pump,Lake Victoria,1998
+soft,rope pump,Pangani,2010
+soft,rope pump,Rufiji,2009
+soft,rope pump,Ruvuma / Southern Coast,2002
+soft,rope pump,Wami / Ruvu,2011
+soft,submersible,Internal,2004
+soft,submersible,Lake Nyasa,1997
+soft,submersible,Lake Rukwa,2006
+soft,submersible,Lake Tanganyika,1978
+soft,submersible,Lake Victoria,1985
+soft,submersible,Pangani,2006
+soft,submersible,Rufiji,2003
+soft,submersible,Ruvuma / Southern Coast,1988
+soft,submersible,Wami / Ruvu,2007
+soft,swn 80,Internal,1994
+soft,swn 80,Lake Nyasa,1995
+soft,swn 80,Lake Rukwa,2003
+soft,swn 80,Lake Tanganyika,1991
+soft,swn 80,Lake Victoria,1993
+soft,swn 80,Pangani,2004
+soft,swn 80,Rufiji,1997
+soft,swn 80,Ruvuma / Southern Coast,1999
+soft,swn 80,Wami / Ruvu,1997
+soft,wind-powered,Internal,2005
+soft,wind-powered,Lake Tanganyika,1997
+soft,wind-powered,Lake Victoria,2012
+soft,wind-powered,Pangani,2010
+soft,wind-powered,Rufiji,1978
+soft,wind-powered,Wami / Ruvu,2006
+unknown,afridev,Internal,1990
+unknown,afridev,Lake Victoria,1998
+unknown,afridev,Pangani,2008
+unknown,gravity,Internal,2010
+unknown,gravity,Lake Nyasa,2000
+unknown,gravity,Lake Rukwa,1986
+unknown,gravity,Lake Tanganyika,2003
+unknown,gravity,Lake Victoria,2012
+unknown,gravity,Pangani,2006
+unknown,gravity,Rufiji,1994
+unknown,gravity,Ruvuma / Southern Coast,1974
+unknown,gravity,Wami / Ruvu,1995
+unknown,india mark ii,Internal,2012
+unknown,india mark ii,Lake Rukwa,1985
+unknown,india mark ii,Lake Tanganyika,2006
+unknown,india mark ii,Pangani,1996
+unknown,india mark ii,Rufiji,2007
+unknown,india mark ii,Ruvuma / Southern Coast,1996
+unknown,india mark ii,Wami / Ruvu,2005
+unknown,india mark iii,Rufiji,2002
+unknown,india mark iii,Wami / Ruvu,1999
+unknown,mono,Internal,1970
+unknown,mono,Lake Rukwa,1985
+unknown,mono,Ruvuma / Southern Coast,1979
+unknown,mono,Wami / Ruvu,1969
+unknown,nira/tanira,Internal,1990
+unknown,nira/tanira,Lake Tanganyika,2005
+unknown,nira/tanira,Lake Victoria,1996
+unknown,nira/tanira,Pangani,2007
+unknown,nira/tanira,Rufiji,2009
+unknown,nira/tanira,Ruvuma / Southern Coast,1988
+unknown,nira/tanira,Wami / Ruvu,2000
+unknown,other,Internal,1990
+unknown,other,Lake Nyasa,2004
+unknown,other,Lake Rukwa,1989
+unknown,other,Lake Tanganyika,1994
+unknown,other,Lake Victoria,2008
+unknown,other,Pangani,2011
+unknown,other,Rufiji,1996
+unknown,other,Ruvuma / Southern Coast,1982
+unknown,other,Wami / Ruvu,2004
+unknown,other handpump,Lake Rukwa,1984
+unknown,other motorpump,Pangani,2012
+unknown,rope pump,Lake Victoria,2002
+unknown,submersible,Internal,2004
+unknown,submersible,Lake Rukwa,1978
+unknown,submersible,Lake Tanganyika,1985
+unknown,submersible,Lake Victoria,2007
+unknown,submersible,Pangani,2012
+unknown,submersible,Rufiji,2011
+unknown,submersible,Ruvuma / Southern Coast,2006
+unknown,submersible,Wami / Ruvu,1998
+unknown,swn 80,Internal,1990
+unknown,swn 80,Lake Nyasa,2009
+unknown,swn 80,Lake Rukwa,2003
+unknown,swn 80,Lake Victoria,2000
+unknown,swn 80,Pangani,2007
+unknown,swn 80,Rufiji,1995
+unknown,swn 80,Ruvuma / Southern Coast,1995
+unknown,swn 80,Wami / Ruvu,1994
+unknown,wind-powered,Internal,1960
